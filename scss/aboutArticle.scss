@@ -1,0 +1,69 @@
+#about {
+position: relative;
+background: #1C1C1C;
+min-width: 400px;
+
+.about-avatar {
+position: absolute;
+left: 210px;
+}
+ h2.about-h2 {
+  color: #FFFFFF;
+  position: absolute;
+  top: 90px;
+  left: 767px;
+  font-size: 30px;
+  border-bottom: 3px solid #E27866;
+  padding-bottom: 35px;
+}
+
+p.about-p {
+  font-size: 14px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 767px;
+  top: 250px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 350px;
+  left: 767px;
+  background: #E27866;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  .fas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+    color: white;
+  }
+}
+
+.about-section {
+ color: white;
+ position: absolute;
+ top: 345px;
+ left: 850px;
+ font-size: 14px;
+ width: 550px;
+}
+.talk-icon{
+  position: absolute;
+  top: 477px;
+  left: 767px;
+  background: #E27866;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  .far {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+  }
+}
+}

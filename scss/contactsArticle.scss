@@ -1,0 +1,117 @@
+#contacts {
+
+  background-color: #E27866;
+  min-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .contact-us{
+    position: absolute;
+    top: 3700px;
+    font-size: 36px;
+    color:white;
+    font-weight: bold;
+  }
+  .contact-text {
+    position: absolute;
+    top: 3800px;
+   font-size: 14px;
+   color: white;
+  }
+// radios-inputs
+.contacts-form {
+position: absolute;
+top: 3880px;
+display: flex;
+justify-content: center;
+height: 385px;
+width: 360px;
+background: white;
+margin: 30px;
+border-radius: 5px;
+font-size: 14px;
+.contacts-inputs {
+  display: flex;
+  margin-top: 10px;
+  .contacts-radio {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    label {
+      width: 100px;
+      opacity: 0.6;
+      cursor: pointer;
+      .radio {
+        display: inline-block;
+        position: relative;
+        padding-top: 10px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        border: 1px solid #41d395;
+        opacity: 0.5;
+        transition: 0.3s ease-in-out;
+
+        &:after {
+          content: "";
+          width: 5px;
+          height: 5px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          background-color: red;
+          border-radius: 50%;
+          transform: scale(0);
+          transition: 0.3s ease-in-out;
+        }
+      }
+
+      span {
+        color: black;
+      }
+    }
+
+    input {
+      display: none;
+
+      &:checked + label {
+        opacity: 1;
+        .cntcs-radio:after {
+            transform: scale(1);
+        }
+      }
+    }
+   }
+
+  }
+ }
+.send-btn {
+  position: absolute;
+  top: 310px;
+  left: 106px;
+  width: 150px;
+  height: 48px;
+  text-decoration: none;
+  background-color: #41D395;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+ }
+ .contacts-inputs {
+   display: flex;
+   flex-direction: column;
+   .border {
+     margin-top: 20px;
+     width: 250px;
+     height: 50px;
+     border: none;
+     border-bottom: 1px solid #86878B;
+   }
+ }
+}

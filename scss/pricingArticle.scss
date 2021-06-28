@@ -1,0 +1,111 @@
+#pricing {
+  position: relative;
+  background-color: #6696E2;
+  min-width: 400px;
+  margin: 0 auto;
+  hr {
+    position: absolute;
+    top: 165px;
+    left: 47%;
+  }
+ .pricing-options {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 90px;
+   font-size: 36px;
+   color: white;
+ }
+ .pricing-p  {
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 205px;
+   font-size: 16px;
+   color: white;
+ }
+ .starter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 80px;
+   left: -270px;
+
+ }
+ .container1 {
+   margin: 0;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 330px;
+   height: 370px;
+   color: #86878B;
+   background-color: #1C1C1C;
+   border-radius: 5px;
+   margin-right: 40px;
+ }
+ .container2 {
+   margin: 0;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 330px;
+   height: 400px;
+   color: #86878B;
+   background-color: #1C1C1C;
+   border-radius: 5px;
+   margin-right: 40px;
+ }
+ .container3 {
+   margin: 0;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 330px;
+   height: 370px;
+   color: #86878B;
+   background-color: #1C1C1C;
+   border-radius: 5px;
+   margin-right: 40px;
+ }
+ .basic, .basic2, .basic3 {
+   font-size: 20px;
+   color: white;
+ }
+ .container-price, .container-price2, .container-price3 {
+   color: white;
+   font-size: 36px;
+ }
+ .container-free, .container-free2, .container-free3 {
+   display: flex;
+   justify-content: center;
+   font-size: 14px;
+   border-bottom: 5px solid #41D395;
+   width: 100%;
+   padding-bottom: 10px;
+ }
+ .options {
+  padding: 3px;
+  font-size: 14px;
+  margin-top: 6px;
+ }
+ .container-1options, .container-2options, .container-3options {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 8px;
+ }
+ .middle-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 30px;
+   background: #41D395;
+   color: white;
+ }
+}

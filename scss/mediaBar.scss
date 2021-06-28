@@ -1,0 +1,31 @@
+#mediaBar {
+  width: 100%;
+  height: 105px;
+  background: white;
+}
+.media-h2 {
+  position:absolute;
+  top: 695px;
+  left: 165px;
+  color: #333333;
+  font-size: 20px;
+}
+.media-p {
+  position: absolute;
+  top: 720px;
+  left: 165px;
+  color: #86878B;
+  line-height: 1.6;
+}
+i {
+  font-size: 27px;
+  color: #E27866;
+}
+.media {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  position: absolute;
+  top: 720px;
+  right: 135px;
+}
