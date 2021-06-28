@@ -1,5 +1,5 @@
 #contacts {
-
+ position: relative;
   background-color: #E27866;
   min-width: 400px;
   margin: 0 auto;
@@ -7,21 +7,21 @@
   flex-direction: column;
   .contact-us{
     position: absolute;
-    top: 3600px;
+    top: 100px;
     font-size: 36px;
     color:white;
     font-weight: bold;
   }
   .contact-text {
     position: absolute;
-    top: 3700px;
+    top: 200px;
    font-size: 14px;
    color: white;
   }
 // radios-inputs
 .contacts-form {
 position: absolute;
-top: 3780px;
+top: 240px;
 display: flex;
 justify-content: center;
 height: 385px;
